@@ -1,0 +1,50 @@
+.nav-container {
+  --divider-width: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0px;
+  margin: 0;
+  cursor: pointer;
+  height: 10vh;
+  width: 100%;
+}
+nav {
+  background-color: #e5e5e5;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.navbar > div {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding: 10px 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+.navbar > div:hover {
+  background-color: #beaef2;
+  color: white;
+}
+.active {
+  background-color: #beaef2;
+  color: white;
+}
+.transactions{
+  border-radius: 15px 0 0 15px;
+}
+.pieChart{
+  border-radius: 0px 15px 15px 0px;
+}
+.divider {
+  height: 40px;
+  width: 1px;
+  background-color: black;
+}
+.divider:nth-child(2){
+  width: 0.5px;
+}
